@@ -18,11 +18,12 @@ class ViewController: UIViewController {
         UIColor.darkGray
     ]
     
+    @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var stackView: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        onSpacingChanged(slider)
     }
     
     @IBAction func onAddClick(_ sender: UIButton) {
