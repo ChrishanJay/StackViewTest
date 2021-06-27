@@ -43,6 +43,9 @@
                                         <state key="normal" title="Remove">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onRemoveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8d-dd-5Pt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zId-zm-ctL">
                                         <rect key="frame" x="252" y="0.0" width="106" height="32"/>
