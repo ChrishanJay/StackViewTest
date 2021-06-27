@@ -60,13 +60,22 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="pfM-hj-qhW">
+                                <rect key="frame" x="16" y="708" width="358" height="31"/>
+                                <connections>
+                                    <action selector="onSpacingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="EV2-75-3L3"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tvB-5A-v6d" secondAttribute="trailing" constant="16" id="4Zg-Wa-DB6"/>
                             <constraint firstItem="tvB-5A-v6d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9Vi-V7-4EL"/>
+                            <constraint firstItem="pfM-hj-qhW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="IAB-oG-35V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PdP-mZ-BdQ" secondAttribute="trailing" constant="20" id="Nok-ia-3yx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfM-hj-qhW" secondAttribute="trailing" constant="18" id="a0B-YP-fkR"/>
+                            <constraint firstItem="tvB-5A-v6d" firstAttribute="top" secondItem="pfM-hj-qhW" secondAttribute="bottom" constant="20" id="cEl-yv-DWI"/>
                             <constraint firstItem="PdP-mZ-BdQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cPo-DU-o7O"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tvB-5A-v6d" secondAttribute="bottom" constant="20" id="kSZ-z1-XTs"/>
                             <constraint firstItem="PdP-mZ-BdQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zM7-eY-eU8"/>

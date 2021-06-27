@@ -50,5 +50,11 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func onSpacingChanged(_ sender: UISlider) {
+        let spacing = sender.value
+        stackView.spacing = CGFloat(spacing)
+    }
+    
+    
 }
 
