@@ -42,6 +42,13 @@ class ViewController: UIViewController {
         view.removeFromSuperview()
     }
     
-
+    @IBAction func onOrientationClick(_ sender: Any) {
+        if stackView.axis == .horizontal {
+            stackView.axis = .vertical
+        } else {
+            stackView.axis = .horizontal
+        }
+    }
+    
 }
 
